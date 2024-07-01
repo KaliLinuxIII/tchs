@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.loginContainer {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.passwordInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    color: aqua;
+    border-color: red;
+}
+
+.showPasswordBtn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: red;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+
+}
+
+.showPasswordBtn:hover {
+    cursor: pointer;
+}
+
+#passwordCheckerDisplay {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
